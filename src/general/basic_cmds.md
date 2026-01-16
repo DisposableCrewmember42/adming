@@ -1,5 +1,15 @@
 # Basic Commands
 ## Gathering information
+### adminlogs
+|Syntax|Description|
+|:-------|:-----------|
+| ``adminlogs`` | Opens the floating logs window.|
+
+### adminoverlay
+|Syntax|Description|
+|:-------|:-----------|
+| ``adminoverlay <True / False>`` | Alternative to clicking the toggle overlay button in the F7 player menu. |
+
 ### listgamerules
 |Syntax|Description|
 |:-------|:-----------|
@@ -8,6 +18,11 @@
 - If the ``RampingStationEventScheduler`` is present, the game mode is Survival.
 - If the ``BasicStationEventScheduler`` is present, you can identify the gamemode by antag-specific gamerules such as ``Nukeops`` or ``Traitors``.
 - Some round-start antagonists don't roll immediately; the respective game rules will be shown as ``[PENDING]`` until the roles are filled.
+
+### lsobjectives
+|Syntax|Description|
+|:-------|:-----------|
+| ``lsobjectives <username>`` | Prints the antagonist objectives of the requested player to your console.|
 
 ### menuvis
 |Syntax|Description|
@@ -18,12 +33,17 @@
     * Watch out, people are containers too and you can take out their organs as an aghost!
 - Use ``menuvis`` without any arguments to go back to normal.
 
-### lsobjectives
+### rename
 |Syntax|Description|
 |:-------|:-----------|
-| ``lsobjectives <username>`` | Prints the antagonist objectives of the requested player to your console.|
+| ``rename <username> <new character name>`` | Used to properly rename a player mid-round. |
 
-## Moderation Action
+## Moderation
+### adminnotes
+|Syntax|Description|
+|:-------|:-----------|
+| ``adminnotes <username>`` | Opens the note menu on the specified user |
+
 ### ban_exemption_update
 |Syntax|Description|
 |:-------|:-----------|
@@ -31,3 +51,9 @@
 - Flag ``IP``: Used to exempt someone from a non-VPN IP Ban. Use this if they are affected by another player's ban.
 - Flag ``Datacenter``: Used to exempt someone from VPN/Datacenter bans.
 
+
+## Miscellaneous
+#### toggleshadows
+|Syntax|Description|
+|:-------|:-----------|
+| ``toggleshadows`` | Will toggle rendering of shadows client-side. Less straining on the eyes than fullbright while still allowing you to see clearly in most situations. |

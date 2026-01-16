@@ -6,8 +6,10 @@
 - [General Recommendations](general/recs.md)
 - [Local Scripts](general/scripts.md)
 
+# Tips
+- [CC Announcements](tips/announcing.md)
+
 # Tricks
-- [Answering Faxes](tricks/answering_faxes.md)
 - [Arbitrary Flatpacks](tricks/arbitrary_flatpacks.md)
 - [aGhost Shenanigans](tricks/aghost_shenanigans.md)
-
+- [Station Comms in a Ghost Bar](tricks/read_comms_ghostbar.md)
