@@ -22,5 +22,7 @@ While some prototypes work just fine when orbiting players, others will jitter a
 > self do "vvwrite /entity/$ID/Transform/_noLocalRotation true"
 ```
 
+Before setting _noLocalRotation, turn to so the sprite you want is displayed. _noLocalRotation will lock your sprite rotation completely (relative to the grid).
+
 ## Making ghosts RGB
 - Simply add the RgbLightController component to the ghost in question.
