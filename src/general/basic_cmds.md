@@ -179,3 +179,9 @@
 |:-------|:-----------|
 | ``setadminooc <hex color>`` | Sets the color of your ghost and OOC messages. |
 - This will persist, you only need to set it once.
+
+### fuckrules
+|Syntax|Description|
+|:-------|:-----------|
+| ``fuckrules`` | Use this to skip the rules screen that pops up on join. |
+
