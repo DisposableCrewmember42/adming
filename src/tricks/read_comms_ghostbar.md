@@ -11,7 +11,9 @@ After a building a ghost bar, you may find yourself wanting to join in and inter
 
 ## How?
 1. Open View Variables on your radio.
-2. Find the ActiveRadioComponent under Server Components set both ``GlobalReceive`` and ``TODO forgot name`` to True
+2. Find the ActiveRadioComponent under Server Components set both ``GlobalReceive`` and ``ReceiveAllChannels`` to True
     - This will allow you to hear all comms channels
-4. Add the ShockOnUnequipComponent to it and set its UseAccess attribute to False.
-    - This will shock anyone trying to remove it from you and cancel the unequip attempt, so long as they aren't wearing insuls.
+
+    ![](../images/ghostbar_comms_vv.png)
+4. Add the UnremoveableComponent to it
+    - This will stop anyone who tries to remove it.  
