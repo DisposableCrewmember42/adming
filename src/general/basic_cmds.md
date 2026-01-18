@@ -73,6 +73,18 @@
 | ``rename <username> <new character name>`` | Used to properly rename a player mid-round. |
 
 
+## Addressing Bugs
+### setmind
+|Syntax|Description|
+|:-------|:-----------|
+| ``setmind <username> <entity ID>`` | Use this to force a player to take control of a certain (sentient) entity. Useful if Psionics sent someone to nullspace again or ghosted them. |
+
+### spawnplayer
+|Syntax|Description|
+|:-------|:-----------|
+| ``spawnplayer <username>`` | Spawn the given player's current character at your aghost's position. |
+- Use this if you can't teleport someone out of nullspace after deleting their old body. You may need to use setmind to force them in.
+
 ## Eventing
 ### addgamerule
 |Syntax|Description|
@@ -94,6 +106,10 @@
   loadgrid 4 /Maps/_DV/Shuttles/Admin/recruiter_ship.yml 964 273
   ```
 
+### spawncharacter
+|Syntax|Description|
+|:-------|:-----------|
+| ``spawncharacter <character name> <loadout>`` | Used to spawn in one of your own characters with the specified loadout. Use this to spawn your CC character with the CentralCommandOfficial loadout. |
 
 ## Miscellaneous
 ### toggleshadows
