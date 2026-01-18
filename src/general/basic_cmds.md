@@ -72,6 +72,11 @@
 |:-------|:-----------|
 | ``rename <username> <new character name>`` | Used to properly rename a player mid-round. |
 
+### playerpanel
+|Syntax|Description|
+|:-------|:-----------|
+| ``playerpanel <username>`` | Opens the player panel for the specified user, containing shortcuts to various menus. |
+- Keep a playerpanel open on suspected raiders, it'll allow you to react much quicker by just clicking the freeze button.
 
 ## Addressing Bugs
 ### setmind
@@ -109,10 +114,18 @@
 ### spawncharacter
 |Syntax|Description|
 |:-------|:-----------|
-| ``spawncharacter <character name> <loadout>`` | Used to spawn in one of your own characters with the specified loadout. Use this to spawn your CC character with the CentralCommandOfficial loadout. |
+| ``spawncharacter <character name> <loadout>`` | Used to spawn in one of your own characters with the specified loadout. |
+- Use this to spawn your CC character with the ``CentralCommandOfficial`` loadout.
 
 ## Miscellaneous
 ### toggleshadows
 |Syntax|Description|
 |:-------|:-----------|
-| ``toggleshadows`` | Will toggle rendering of shadows client-side. Less straining on the eyes than fullbright while still allowing you to see clearly in most situations. |
+| ``toggleshadows`` | Will toggle rendering of shadows client-side. |
+- Less straining on the eyes than fullbright while still allowing you to see clearly in most situations.
+- Remember to turn this back off before you deadmin to play a ghost role. It won't be disabled automatically.
+### setadminooc
+|Syntax|Description|
+|:-------|:-----------|
+| ``setadminooc <hex color>`` | Sets the color of your ghost and OOC messages. |
+- This will persist, you only need to set it once.
