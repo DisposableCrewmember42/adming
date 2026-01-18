@@ -78,6 +78,26 @@
 | ``playerpanel <username>`` | Opens the player panel for the specified user, containing shortcuts to various menus. |
 - Keep a playerpanel open on suspected raiders, it'll allow you to react much quicker by just clicking the freeze button.
 
+### banlist
+|Syntax|Description|
+|:-------|:-----------|
+| ``banlist <username>`` | Opens a player's ban list. |
+- By clicking on view, you can display a tooltip with the ID of each ban and other metadata.
+  - Do not share the data shown to you in this tooltip, it contains PII.
+  ![](../images/banlist-view.png)
+
+### pardon
+|Syntax|Description|
+|:-------|:-----------|
+| ``pardon <ban id>`` | Pardons a specific Server Ban. |
+- get the ban ID from the [ban list](#banlist)
+
+### roleunban
+|Syntax|Description|
+|:-------|:-----------|
+| ``roleunban <ban id>`` | Pardons a specific Server Ban. |
+- get the ban ID from the [ban list](#banlist)
+
 ## Addressing Bugs
 ### setmind
 |Syntax|Description|
@@ -96,6 +116,10 @@
 |:-------|:-----------|
 | ``addgamerule <gamerule>`` | Used to add game rules to the current round. These range from antag spawns to noospheric events. |
 
+### addaction
+|Syntax|Description|
+|:-------|:-----------|
+| ``addaction <entity id> <action prototype>`` | Used to grant entities the ability to perform special actions such as ActionFireball - ONI'SOMA! |
 
 ### loadgrid
 |Syntax|Description|
@@ -118,12 +142,24 @@
 - Use this to spawn your CC character with the ``CentralCommandOfficial`` loadout.
 
 ## Miscellaneous
+### list
+|list|Description|
+|:-------|:-----------|
+| ``list <keyword>`` | Search for commands by the specified keyword. |
+
+### help
+|list|Description|
+|:-------|:-----------|
+| ``help <command>`` | Display the specified command's documentation, if it exists. YMMV. |
+
+
 ### toggleshadows
 |Syntax|Description|
 |:-------|:-----------|
 | ``toggleshadows`` | Will toggle rendering of shadows client-side. |
 - Less straining on the eyes than fullbright while still allowing you to see clearly in most situations.
 - Remember to turn this back off before you deadmin to play a ghost role. It won't be disabled automatically.
+
 ### setadminooc
 |Syntax|Description|
 |:-------|:-----------|
