@@ -29,7 +29,7 @@
 ### adminoverlay
 |Syntax|Description|
 |:-------|:-----------|
-| ``adminoverlay <True / False>`` | Alternative to clicking the toggle overlay button in the F7 player menu. |
+| ``adminoverlay <bool>`` | Alternative to clicking the toggle overlay button in the F7 player menu. |
 
 ### listgamerules
 |Syntax|Description|
