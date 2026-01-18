@@ -112,7 +112,7 @@
 
 ### griddrag
 > [!WARNING]
-> Don't forget to turn griddrag off after using it! There's no indicator that it's enabled and you won't see the grid you're on moving, as you're moving with it.
+> Don't forget to turn griddrag off after using it! There's no indicator that it's enabled and you won't see the grid you're on moving as you're moving with it.
 > If you forget to disable it, you'll probably end up janking around the station and disrupting the round.
 
 |Syntax|Description|
@@ -125,6 +125,14 @@
 
 
 ## Eventing
+
+### delaystart
+|Syntax|Description|
+|:-------|:-----------|
+| ``delaystart <delay in seconds>`` | Used to delay the start of the round |
+- You probably shouldn't use this frequently or without reason, such as to wait for more players before an event shift or after a server crash.
+
+
 ### addgamerule
 |Syntax|Description|
 |:-------|:-----------|

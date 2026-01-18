@@ -10,7 +10,7 @@
   ![An image of the Toggle UI verb being selected for the Admin ID](../images/admin_id_toggleui.png) ![An image of the Admin ID UI being used](../images/admin_id_ui.png)
 
 ### Spawning in as CC anyway
-- In some situations, you may want to holocall the station. Or perhaps you just prever doing things as an actual character.
+- In some situations, you may want to holocall the station. Or perhaps you just prefer doing things as an actual character.
   You can spawn in your CC character using ``spawncharacter <character name> CentralCommandOfficial`` 
 
 ## Prayers
