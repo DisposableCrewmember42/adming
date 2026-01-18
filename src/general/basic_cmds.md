@@ -1,4 +1,25 @@
 # Basic Commands
+
+> [!NOTE]
+> For an overview of admin menus and verbs, check out the [upstream Admin Tooling docs](https://docs.spacestation14.com/en/community/admin/admin-tooling.html)
+
+## De-/Activating Admin privileges
+### readmin
+|Syntax|Description|
+|:-------|:-----------|
+| ``readmin`` | Enable your admin privileges. |
+
+### deadmin
+|Syntax|Description|
+|:-------|:-----------|
+| ``deadmin`` | Disables your admin privileges to play like normal. |
+
+### aghost
+|Syntax|Description|
+|:-------|:-----------|
+| ``aghost`` | Turns you into a fancy ghost with an inventory that can interact with the live round. |
+
+
 ## Gathering information
 ### adminlogs
 |Syntax|Description|
@@ -33,11 +54,6 @@
     * Watch out, people are containers too and you can take out their organs as an aghost!
 - Use ``menuvis`` without any arguments to go back to normal.
 
-### rename
-|Syntax|Description|
-|:-------|:-----------|
-| ``rename <username> <new character name>`` | Used to properly rename a player mid-round. |
-
 ## Moderation
 ### adminnotes
 |Syntax|Description|
@@ -51,9 +67,16 @@
 - Flag ``IP``: Used to exempt someone from a non-VPN IP Ban. Use this if they are affected by another player's ban.
 - Flag ``Datacenter``: Used to exempt someone from VPN/Datacenter bans.
 
+### rename
+|Syntax|Description|
+|:-------|:-----------|
+| ``rename <username> <new character name>`` | Used to properly rename a player mid-round. |
+
 
 ## Miscellaneous
-#### toggleshadows
+### toggleshadows
 |Syntax|Description|
 |:-------|:-----------|
 | ``toggleshadows`` | Will toggle rendering of shadows client-side. Less straining on the eyes than fullbright while still allowing you to see clearly in most situations. |
+
+#### 

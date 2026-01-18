@@ -7,7 +7,7 @@
 - [Local Scripts](general/scripts.md)
 
 # Tips
-- [CC Announcements](tips/announcing.md)
+- [Responding to Prayers and Faxes](tips/prayers_faxes.md)
 
 # Tricks
 - [Arbitrary Flatpacks](tricks/arbitrary_flatpacks.md)
