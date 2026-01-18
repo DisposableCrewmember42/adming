@@ -8,6 +8,7 @@
 
 # Tips
 - [Responding to Prayers and Faxes](tips/prayers_faxes.md)
+- [Building Stuff](tips/building.md)
 
 # Tricks
 - [Arbitrary Flatpacks](tricks/arbitrary_flatpacks.md)
