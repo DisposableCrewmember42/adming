@@ -110,6 +110,20 @@
 | ``spawnplayer <username>`` | Spawn the given player's current character at your aghost's position. |
 - Use this if you can't teleport someone out of nullspace after deleting their old body. You may need to use setmind to force them in.
 
+### griddrag
+> [!WARNING]
+> Don't forget to turn griddrag off after using it! There's no indicator that it's enabled and you won't see the grid you're on moving, as you're moving with it.
+> If you forget to disable it, you'll probably end up janking around the station and disrupting the round.
+
+|Syntax|Description|
+|:-------|:-----------|
+| ``griddrag`` | Toggles grid dragging. |
+- Use this to drag stuck grids away from each other, such as a salvage wreck out of the LPO outpost.
+- After executing the command to enable dragging, simply click on the grid you want to pull and hold. You can drag it with your mouse.
+- The grid will gain velocity, move your mouse slowly until it's unstuck.
+- Execute it again to disable it.
+
+
 ## Eventing
 ### addgamerule
 |Syntax|Description|
