@@ -73,10 +73,30 @@
 | ``rename <username> <new character name>`` | Used to properly rename a player mid-round. |
 
 
+## Eventing
+### addgamerule
+|Syntax|Description|
+|:-------|:-----------|
+| ``addgamerule <gamerule>`` | Used to add game rules to the current round. These range from antag spawns to noospheric events. |
+
+
+### loadgrid
+|Syntax|Description|
+|:-------|:-----------|
+| ``loadgrid <map id> <grid file> <x> <y>`` | Used to spawn in grids such as shuttles. |
+- Fly far enough away from the station. If you are too close, the grid might intersect and disrupt the round.
+- Open the F3 Menu to get the required values from the debug menu. They'll be in the topmost block of text.
+
+  ![](../images/loadgrid_f3.png)
+- The grid file parameter should autocomplete, just start by typing ``/Maps/`` and you'll be able to explore the collection of grids/maps.
+- Using the values from the above image, I could spawn in a recruiter shuttle at the location of my aghost as follows:
+  ```
+  loadgrid 4 /Maps/_DV/Shuttles/Admin/recruiter_ship.yml 964 273
+  ```
+
+
 ## Miscellaneous
 ### toggleshadows
 |Syntax|Description|
 |:-------|:-----------|
 | ``toggleshadows`` | Will toggle rendering of shadows client-side. Less straining on the eyes than fullbright while still allowing you to see clearly in most situations. |
-
-#### 
