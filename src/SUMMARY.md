@@ -13,3 +13,4 @@
 - [Arbitrary Flatpacks](tricks/arbitrary_flatpacks.md)
 - [aGhost Shenanigans](tricks/aghost_shenanigans.md)
 - [Station Comms in a Ghost Bar](tricks/read_comms_ghostbar.md)
+- [Sending Custom Mail](tricks/custom_mail.md)
